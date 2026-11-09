@@ -1,0 +1,17 @@
+export const INGREDIENT_STATUSES = {
+  HALAL: "halal",
+  NON_HALAL: "non-halal",
+  SYUBHAT: "syubhat",
+};
+
+export const INGREDIENT_STATUS_LABELS = {
+  [INGREDIENT_STATUSES.HALAL]: "Halal",
+  [INGREDIENT_STATUSES.NON_HALAL]: "Non-Halal",
+  [INGREDIENT_STATUSES.SYUBHAT]: "Syubhat",
+};
+
+export const PRODUCT_STATUS_LABELS = {
+  [INGREDIENT_STATUSES.HALAL]: "Halal",
+  [INGREDIENT_STATUSES.NON_HALAL]: "Non-Halal",
+  [INGREDIENT_STATUSES.SYUBHAT]: "Syubhat",
+};
